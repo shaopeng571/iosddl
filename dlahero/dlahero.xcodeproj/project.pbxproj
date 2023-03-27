@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181ADA8E29C5CD41005CD64D /* newTT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 181ADA5C29C5CD41005CD64D /* newTT.ttf */; };
+		181ADA9029C5CD41005CD64D /* Bonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 181ADA5E29C5CD41005CD64D /* Bonus.wav */; };
+		181ADA9129C5CD41005CD64D /* Jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 181ADA5F29C5CD41005CD64D /* Jump.wav */; };
+		181ADA9529C5CD41005CD64D /* beida.wav in Resources */ = {isa = PBXBuildFile; fileRef = 181ADA6329C5CD41005CD64D /* beida.wav */; };
+		181ADA9729C5CD41005CD64D /* newbg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 181ADA6529C5CD41005CD64D /* newbg.mp3 */; };
+		181ADA9A29C5CD41005CD64D /* crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 181ADA6829C5CD41005CD64D /* crash.wav */; };
+		181ADA9C29C5CD41005CD64D /* AdlImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181ADA6A29C5CD41005CD64D /* AdlImages.xcassets */; };
+		181ADAAE29C5CDA5005CD64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181ADAAD29C5CDA5005CD64D /* Foundation.framework */; };
+		181ADAB229C6B8D2005CD64D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181ADAB129C6B8D2005CD64D /* AVFoundation.framework */; };
+		181ADAB929C6CF06005CD64D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181ADAB829C6CF06005CD64D /* File.swift */; };
+		181ADAC529C6D5A2005CD64D /* MenuSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 181ADAC429C6D5A2005CD64D /* MenuSound.m4a */; };
+		181ADAC729C72634005CD64D /* tick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 181ADAC629C72634005CD64D /* tick.wav */; };
+		181ADACB29C731DD005CD64D /* ALDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181ADACA29C731DD005CD64D /* ALDFramework.framework */; };
+		181ADACC29C731E1005CD64D /* ALDFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 181ADACA29C731DD005CD64D /* ALDFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		181ADB5629C734A3005CD64D /* PsychicsAciniformMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB3629C734A3005CD64D /* PsychicsAciniformMenuScene.m */; };
+		181ADB5729C734A3005CD64D /* LogomachyImpersonateAttackBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB3729C734A3005CD64D /* LogomachyImpersonateAttackBoss.m */; };
+		181ADB5829C734A3005CD64D /* IchorousRagabashGuanQia.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB3829C734A3005CD64D /* IchorousRagabashGuanQia.m */; };
+		181ADB5929C734A3005CD64D /* IsopterousBeatitudeGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB3C29C734A3005CD64D /* IsopterousBeatitudeGameScene.m */; };
+		181ADB5A29C734A3005CD64D /* CismontanePareticGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB3D29C734A3005CD64D /* CismontanePareticGameScene.m */; };
+		181ADB5B29C734A3005CD64D /* CrapulousRoachbackGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4029C734A3005CD64D /* CrapulousRoachbackGameScene.m */; };
+		181ADB5C29C734A3005CD64D /* TunicaFrondentDiaKing.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4229C734A3005CD64D /* TunicaFrondentDiaKing.m */; };
+		181ADB5D29C734A3005CD64D /* ReiterativeSupergalacticDBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4529C734A3005CD64D /* ReiterativeSupergalacticDBoss.m */; };
+		181ADB5E29C734A3005CD64D /* AblautInopportuneScrollingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4729C734A3005CD64D /* AblautInopportuneScrollingSprite.m */; };
+		181ADB5F29C734A3005CD64D /* AmericanaPolysyllogismDlaObstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4929C734A3005CD64D /* AmericanaPolysyllogismDlaObstacle.m */; };
+		181ADB6029C734A3005CD64D /* PersecuteDestroyerStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4C29C734A3005CD64D /* PersecuteDestroyerStoreManager.m */; };
+		181ADB6129C734A3005CD64D /* VilniusBallrollDlaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4D29C734A3005CD64D /* VilniusBallrollDlaUtils.m */; };
+		181ADB6229C734A3005CD64D /* LoquacitySuperpotentCenterProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4E29C734A3005CD64D /* LoquacitySuperpotentCenterProvider.m */; };
+		181ADB6329C734A3005CD64D /* WaterlogTupekMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB4F29C734A3005CD64D /* WaterlogTupekMusicPlayer.m */; };
+		181ADB6429C734A3005CD64D /* SoubriquetMetacinnabariteStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB5029C734A3005CD64D /* SoubriquetMetacinnabariteStoreManager.m */; };
+		181ADB6729C737BF005CD64D /* WarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ADB6629C737BF005CD64D /* WarningView.m */; };
+		18471DCA29C45D0E00FA238F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18471DC929C45D0E00FA238F /* AppDelegate.m */; };
+		18471DCC29C45D0E00FA238F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 18471DCB29C45D0E00FA238F /* GameScene.sks */; };
+		18471DCE29C45D0E00FA238F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 18471DCD29C45D0E00FA238F /* Actions.sks */; };
+		18471DD129C45D0E00FA238F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 18471DD029C45D0E00FA238F /* GameScene.m */; };
+		18471DD429C45D0E00FA238F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18471DD329C45D0E00FA238F /* GameViewController.m */; };
+		18471DD729C45D0E00FA238F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18471DD529C45D0E00FA238F /* Main.storyboard */; };
+		18471DD929C45D1200FA238F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18471DD829C45D1200FA238F /* Assets.xcassets */; };
+		18471DDC29C45D1200FA238F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18471DDA29C45D1200FA238F /* LaunchScreen.storyboard */; };
+		18471DDE29C45D1200FA238F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18471DDD29C45D1200FA238F /* main.m */; };
+		18471DE729C4660400FA238F /* AldRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18471DE429C4660400FA238F /* AldRes.bundle */; };
+		18471DE829C4660400FA238F /* AldGames.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18471DE529C4660400FA238F /* AldGames.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18471DEA29C4685F00FA238F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				181ADACC29C731E1005CD64D /* ALDFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		181ADA5C29C5CD41005CD64D /* newTT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = newTT.ttf; sourceTree = "<group>"; };
+		181ADA5E29C5CD41005CD64D /* Bonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bonus.wav; sourceTree = "<group>"; };
+		181ADA5F29C5CD41005CD64D /* Jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jump.wav; sourceTree = "<group>"; };
+		181ADA6329C5CD41005CD64D /* beida.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beida.wav; sourceTree = "<group>"; };
+		181ADA6529C5CD41005CD64D /* newbg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = newbg.mp3; sourceTree = "<group>"; };
+		181ADA6829C5CD41005CD64D /* crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crash.wav; sourceTree = "<group>"; };
+		181ADA6A29C5CD41005CD64D /* AdlImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AdlImages.xcassets; sourceTree = "<group>"; };
+		181ADAAD29C5CDA5005CD64D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		181ADAB129C6B8D2005CD64D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		181ADAB729C6CF05005CD64D /* dlahero-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dlahero-Bridging-Header.h"; sourceTree = "<group>"; };
+		181ADAB829C6CF06005CD64D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		181ADABA29C6CFB1005CD64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		181ADAC429C6D5A2005CD64D /* MenuSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MenuSound.m4a; sourceTree = "<group>"; };
+		181ADAC629C72634005CD64D /* tick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tick.wav; sourceTree = "<group>"; };
+		181ADACA29C731DD005CD64D /* ALDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALDFramework.framework; sourceTree = "<group>"; };
+		181ADB3529C734A3005CD64D /* IsopterousBeatitudeGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsopterousBeatitudeGameScene.h; sourceTree = "<group>"; };
+		181ADB3629C734A3005CD64D /* PsychicsAciniformMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PsychicsAciniformMenuScene.m; sourceTree = "<group>"; };
+		181ADB3729C734A3005CD64D /* LogomachyImpersonateAttackBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogomachyImpersonateAttackBoss.m; sourceTree = "<group>"; };
+		181ADB3829C734A3005CD64D /* IchorousRagabashGuanQia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IchorousRagabashGuanQia.m; sourceTree = "<group>"; };
+		181ADB3929C734A3005CD64D /* CismontanePareticGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CismontanePareticGameScene.h; sourceTree = "<group>"; };
+		181ADB3A29C734A3005CD64D /* CrapulousRoachbackGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrapulousRoachbackGameScene.h; sourceTree = "<group>"; };
+		181ADB3B29C734A3005CD64D /* PsychicsAciniformMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsychicsAciniformMenuScene.h; sourceTree = "<group>"; };
+		181ADB3C29C734A3005CD64D /* IsopterousBeatitudeGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsopterousBeatitudeGameScene.m; sourceTree = "<group>"; };
+		181ADB3D29C734A3005CD64D /* CismontanePareticGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CismontanePareticGameScene.m; sourceTree = "<group>"; };
+		181ADB3E29C734A3005CD64D /* IchorousRagabashGuanQia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IchorousRagabashGuanQia.h; sourceTree = "<group>"; };
+		181ADB3F29C734A3005CD64D /* LogomachyImpersonateAttackBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogomachyImpersonateAttackBoss.h; sourceTree = "<group>"; };
+		181ADB4029C734A3005CD64D /* CrapulousRoachbackGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrapulousRoachbackGameScene.m; sourceTree = "<group>"; };
+		181ADB4229C734A3005CD64D /* TunicaFrondentDiaKing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunicaFrondentDiaKing.m; sourceTree = "<group>"; };
+		181ADB4329C734A3005CD64D /* AblautInopportuneScrollingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AblautInopportuneScrollingSprite.h; sourceTree = "<group>"; };
+		181ADB4429C734A3005CD64D /* AmericanaPolysyllogismDlaObstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanaPolysyllogismDlaObstacle.h; sourceTree = "<group>"; };
+		181ADB4529C734A3005CD64D /* ReiterativeSupergalacticDBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReiterativeSupergalacticDBoss.m; sourceTree = "<group>"; };
+		181ADB4629C734A3005CD64D /* TunicaFrondentDiaKing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunicaFrondentDiaKing.h; sourceTree = "<group>"; };
+		181ADB4729C734A3005CD64D /* AblautInopportuneScrollingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AblautInopportuneScrollingSprite.m; sourceTree = "<group>"; };
+		181ADB4829C734A3005CD64D /* ReiterativeSupergalacticDBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReiterativeSupergalacticDBoss.h; sourceTree = "<group>"; };
+		181ADB4929C734A3005CD64D /* AmericanaPolysyllogismDlaObstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanaPolysyllogismDlaObstacle.m; sourceTree = "<group>"; };
+		181ADB4A29C734A3005CD64D /* OceanautWoodworkerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OceanautWoodworkerConstants.h; sourceTree = "<group>"; };
+		181ADB4C29C734A3005CD64D /* PersecuteDestroyerStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersecuteDestroyerStoreManager.m; sourceTree = "<group>"; };
+		181ADB4D29C734A3005CD64D /* VilniusBallrollDlaUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VilniusBallrollDlaUtils.m; sourceTree = "<group>"; };
+		181ADB4E29C734A3005CD64D /* LoquacitySuperpotentCenterProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoquacitySuperpotentCenterProvider.m; sourceTree = "<group>"; };
+		181ADB4F29C734A3005CD64D /* WaterlogTupekMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterlogTupekMusicPlayer.m; sourceTree = "<group>"; };
+		181ADB5029C734A3005CD64D /* SoubriquetMetacinnabariteStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoubriquetMetacinnabariteStoreManager.m; sourceTree = "<group>"; };
+		181ADB5129C734A3005CD64D /* VilniusBallrollDlaUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VilniusBallrollDlaUtils.h; sourceTree = "<group>"; };
+		181ADB5229C734A3005CD64D /* PersecuteDestroyerStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersecuteDestroyerStoreManager.h; sourceTree = "<group>"; };
+		181ADB5329C734A3005CD64D /* LoquacitySuperpotentCenterProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoquacitySuperpotentCenterProvider.h; sourceTree = "<group>"; };
+		181ADB5429C734A3005CD64D /* SoubriquetMetacinnabariteStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoubriquetMetacinnabariteStoreManager.h; sourceTree = "<group>"; };
+		181ADB5529C734A3005CD64D /* WaterlogTupekMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterlogTupekMusicPlayer.h; sourceTree = "<group>"; };
+		181ADB6529C737BF005CD64D /* WarningView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarningView.h; sourceTree = "<group>"; };
+		181ADB6629C737BF005CD64D /* WarningView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarningView.m; sourceTree = "<group>"; };
+		18471DC529C45D0E00FA238F /* dlahero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dlahero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18471DC829C45D0E00FA238F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18471DC929C45D0E00FA238F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18471DCB29C45D0E00FA238F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		18471DCD29C45D0E00FA238F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		18471DCF29C45D0E00FA238F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		18471DD029C45D0E00FA238F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		18471DD229C45D0E00FA238F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		18471DD329C45D0E00FA238F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		18471DD629C45D0E00FA238F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18471DD829C45D1200FA238F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18471DDB29C45D1200FA238F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18471DDD29C45D1200FA238F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18471DE429C4660400FA238F /* AldRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AldRes.bundle; sourceTree = "<group>"; };
+		18471DE529C4660400FA238F /* AldGames.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AldGames.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18471DC229C45D0E00FA238F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181ADACB29C731DD005CD64D /* ALDFramework.framework in Frameworks */,
+				181ADAB229C6B8D2005CD64D /* AVFoundation.framework in Frameworks */,
+				181ADAAE29C5CDA5005CD64D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181ADA5B29C5CD41005CD64D /* DlaResources */ = {
+			isa = PBXGroup;
+			children = (
+				181ADAC629C72634005CD64D /* tick.wav */,
+				181ADAC429C6D5A2005CD64D /* MenuSound.m4a */,
+				181ADA5C29C5CD41005CD64D /* newTT.ttf */,
+				181ADA5E29C5CD41005CD64D /* Bonus.wav */,
+				181ADA5F29C5CD41005CD64D /* Jump.wav */,
+				181ADA6329C5CD41005CD64D /* beida.wav */,
+				181ADA6529C5CD41005CD64D /* newbg.mp3 */,
+				181ADA6829C5CD41005CD64D /* crash.wav */,
+			);
+			path = DlaResources;
+			sourceTree = "<group>";
+		};
+		181ADAAC29C5CDA5005CD64D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181ADAB129C6B8D2005CD64D /* AVFoundation.framework */,
+				181ADAAD29C5CDA5005CD64D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		181ADB3329C734A3005CD64D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				181ADB3429C734A3005CD64D /* Scenes */,
+				181ADB4129C734A3005CD64D /* Sprites */,
+				181ADB4A29C734A3005CD64D /* OceanautWoodworkerConstants.h */,
+				181ADB4B29C734A3005CD64D /* Helpers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		181ADB3429C734A3005CD64D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				181ADB3929C734A3005CD64D /* CismontanePareticGameScene.h */,
+				181ADB3D29C734A3005CD64D /* CismontanePareticGameScene.m */,
+				181ADB3A29C734A3005CD64D /* CrapulousRoachbackGameScene.h */,
+				181ADB4029C734A3005CD64D /* CrapulousRoachbackGameScene.m */,
+				181ADB3E29C734A3005CD64D /* IchorousRagabashGuanQia.h */,
+				181ADB3829C734A3005CD64D /* IchorousRagabashGuanQia.m */,
+				181ADB3529C734A3005CD64D /* IsopterousBeatitudeGameScene.h */,
+				181ADB3C29C734A3005CD64D /* IsopterousBeatitudeGameScene.m */,
+				181ADB3F29C734A3005CD64D /* LogomachyImpersonateAttackBoss.h */,
+				181ADB3729C734A3005CD64D /* LogomachyImpersonateAttackBoss.m */,
+				181ADB3B29C734A3005CD64D /* PsychicsAciniformMenuScene.h */,
+				181ADB3629C734A3005CD64D /* PsychicsAciniformMenuScene.m */,
+				181ADB6529C737BF005CD64D /* WarningView.h */,
+				181ADB6629C737BF005CD64D /* WarningView.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		181ADB4129C734A3005CD64D /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				181ADB4329C734A3005CD64D /* AblautInopportuneScrollingSprite.h */,
+				181ADB4729C734A3005CD64D /* AblautInopportuneScrollingSprite.m */,
+				181ADB4429C734A3005CD64D /* AmericanaPolysyllogismDlaObstacle.h */,
+				181ADB4929C734A3005CD64D /* AmericanaPolysyllogismDlaObstacle.m */,
+				181ADB4829C734A3005CD64D /* ReiterativeSupergalacticDBoss.h */,
+				181ADB4529C734A3005CD64D /* ReiterativeSupergalacticDBoss.m */,
+				181ADB4629C734A3005CD64D /* TunicaFrondentDiaKing.h */,
+				181ADB4229C734A3005CD64D /* TunicaFrondentDiaKing.m */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		181ADB4B29C734A3005CD64D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				181ADB4C29C734A3005CD64D /* PersecuteDestroyerStoreManager.m */,
+				181ADB4D29C734A3005CD64D /* VilniusBallrollDlaUtils.m */,
+				181ADB4E29C734A3005CD64D /* LoquacitySuperpotentCenterProvider.m */,
+				181ADB4F29C734A3005CD64D /* WaterlogTupekMusicPlayer.m */,
+				181ADB5029C734A3005CD64D /* SoubriquetMetacinnabariteStoreManager.m */,
+				181ADB5129C734A3005CD64D /* VilniusBallrollDlaUtils.h */,
+				181ADB5229C734A3005CD64D /* PersecuteDestroyerStoreManager.h */,
+				181ADB5329C734A3005CD64D /* LoquacitySuperpotentCenterProvider.h */,
+				181ADB5429C734A3005CD64D /* SoubriquetMetacinnabariteStoreManager.h */,
+				181ADB5529C734A3005CD64D /* WaterlogTupekMusicPlayer.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18471DBC29C45D0E00FA238F = {
+			isa = PBXGroup;
+			children = (
+				18471DC729C45D0E00FA238F /* dlahero */,
+				18471DC629C45D0E00FA238F /* Products */,
+				181ADAAC29C5CDA5005CD64D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18471DC629C45D0E00FA238F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18471DC529C45D0E00FA238F /* dlahero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18471DC729C45D0E00FA238F /* dlahero */ = {
+			isa = PBXGroup;
+			children = (
+				181ADB3329C734A3005CD64D /* Core */,
+				181ADACA29C731DD005CD64D /* ALDFramework.framework */,
+				181ADABA29C6CFB1005CD64D /* Info.plist */,
+				181ADA6A29C5CD41005CD64D /* AdlImages.xcassets */,
+				181ADA5B29C5CD41005CD64D /* DlaResources */,
+				18471DE529C4660400FA238F /* AldGames.strings */,
+				18471DE429C4660400FA238F /* AldRes.bundle */,
+				18471DC829C45D0E00FA238F /* AppDelegate.h */,
+				18471DC929C45D0E00FA238F /* AppDelegate.m */,
+				18471DCB29C45D0E00FA238F /* GameScene.sks */,
+				18471DCD29C45D0E00FA238F /* Actions.sks */,
+				18471DCF29C45D0E00FA238F /* GameScene.h */,
+				18471DD029C45D0E00FA238F /* GameScene.m */,
+				18471DD229C45D0E00FA238F /* GameViewController.h */,
+				18471DD329C45D0E00FA238F /* GameViewController.m */,
+				18471DD529C45D0E00FA238F /* Main.storyboard */,
+				18471DD829C45D1200FA238F /* Assets.xcassets */,
+				18471DDA29C45D1200FA238F /* LaunchScreen.storyboard */,
+				18471DDD29C45D1200FA238F /* main.m */,
+				181ADAB829C6CF06005CD64D /* File.swift */,
+				181ADAB729C6CF05005CD64D /* dlahero-Bridging-Header.h */,
+			);
+			path = dlahero;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18471DC429C45D0E00FA238F /* dlahero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18471DE129C45D1200FA238F /* Build configuration list for PBXNativeTarget "dlahero" */;
+			buildPhases = (
+				18471DC129C45D0E00FA238F /* Sources */,
+				18471DC229C45D0E00FA238F /* Frameworks */,
+				18471DC329C45D0E00FA238F /* Resources */,
+				18471DEA29C4685F00FA238F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dlahero;
+			productName = dlahero;
+			productReference = 18471DC529C45D0E00FA238F /* dlahero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18471DBD29C45D0E00FA238F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					18471DC429C45D0E00FA238F = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 18471DC029C45D0E00FA238F /* Build configuration list for PBXProject "dlahero" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18471DBC29C45D0E00FA238F;
+			productRefGroup = 18471DC629C45D0E00FA238F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18471DC429C45D0E00FA238F /* dlahero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18471DC329C45D0E00FA238F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181ADA9729C5CD41005CD64D /* newbg.mp3 in Resources */,
+				18471DE829C4660400FA238F /* AldGames.strings in Resources */,
+				181ADAC529C6D5A2005CD64D /* MenuSound.m4a in Resources */,
+				18471DE729C4660400FA238F /* AldRes.bundle in Resources */,
+				181ADA9129C5CD41005CD64D /* Jump.wav in Resources */,
+				18471DD729C45D0E00FA238F /* Main.storyboard in Resources */,
+				181ADA9529C5CD41005CD64D /* beida.wav in Resources */,
+				18471DCC29C45D0E00FA238F /* GameScene.sks in Resources */,
+				18471DD929C45D1200FA238F /* Assets.xcassets in Resources */,
+				181ADA9029C5CD41005CD64D /* Bonus.wav in Resources */,
+				181ADA9C29C5CD41005CD64D /* AdlImages.xcassets in Resources */,
+				18471DDC29C45D1200FA238F /* LaunchScreen.storyboard in Resources */,
+				18471DCE29C45D0E00FA238F /* Actions.sks in Resources */,
+				181ADA9A29C5CD41005CD64D /* crash.wav in Resources */,
+				181ADA8E29C5CD41005CD64D /* newTT.ttf in Resources */,
+				181ADAC729C72634005CD64D /* tick.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18471DC129C45D0E00FA238F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181ADB5B29C734A3005CD64D /* CrapulousRoachbackGameScene.m in Sources */,
+				181ADB6229C734A3005CD64D /* LoquacitySuperpotentCenterProvider.m in Sources */,
+				181ADB5E29C734A3005CD64D /* AblautInopportuneScrollingSprite.m in Sources */,
+				181ADB5C29C734A3005CD64D /* TunicaFrondentDiaKing.m in Sources */,
+				181ADB5729C734A3005CD64D /* LogomachyImpersonateAttackBoss.m in Sources */,
+				181ADB5629C734A3005CD64D /* PsychicsAciniformMenuScene.m in Sources */,
+				181ADB5A29C734A3005CD64D /* CismontanePareticGameScene.m in Sources */,
+				181ADB5929C734A3005CD64D /* IsopterousBeatitudeGameScene.m in Sources */,
+				181ADB6429C734A3005CD64D /* SoubriquetMetacinnabariteStoreManager.m in Sources */,
+				18471DD129C45D0E00FA238F /* GameScene.m in Sources */,
+				181ADB6029C734A3005CD64D /* PersecuteDestroyerStoreManager.m in Sources */,
+				181ADB5D29C734A3005CD64D /* ReiterativeSupergalacticDBoss.m in Sources */,
+				181ADB5F29C734A3005CD64D /* AmericanaPolysyllogismDlaObstacle.m in Sources */,
+				181ADAB929C6CF06005CD64D /* File.swift in Sources */,
+				181ADB6129C734A3005CD64D /* VilniusBallrollDlaUtils.m in Sources */,
+				18471DD429C45D0E00FA238F /* GameViewController.m in Sources */,
+				18471DDE29C45D1200FA238F /* main.m in Sources */,
+				18471DCA29C45D0E00FA238F /* AppDelegate.m in Sources */,
+				181ADB5829C734A3005CD64D /* IchorousRagabashGuanQia.m in Sources */,
+				181ADB6329C734A3005CD64D /* WaterlogTupekMusicPlayer.m in Sources */,
+				181ADB6729C737BF005CD64D /* WarningView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18471DD529C45D0E00FA238F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18471DD629C45D0E00FA238F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18471DDA29C45D1200FA238F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18471DDB29C45D1200FA238F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18471DDF29C45D1200FA238F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18471DE029C45D1200FA238F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18471DE229C45D1200FA238F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = H77AL55HQD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dlahero",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dlahero/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-adll_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldgames.xjbdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = alddev1112;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "dlahero/dlahero-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18471DE329C45D1200FA238F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = H77AL55HQD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dlahero",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dlahero/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-adll_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldgames.xjbdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = alddev1112;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "dlahero/dlahero-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18471DC029C45D0E00FA238F /* Build configuration list for PBXProject "dlahero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18471DDF29C45D1200FA238F /* Debug */,
+				18471DE029C45D1200FA238F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18471DE129C45D1200FA238F /* Build configuration list for PBXNativeTarget "dlahero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18471DE229C45D1200FA238F /* Debug */,
+				18471DE329C45D1200FA238F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18471DBD29C45D0E00FA238F /* Project object */;
+}

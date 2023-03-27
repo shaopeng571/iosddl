@@ -1,0 +1,4 @@
+framework module ALDFramework {
+  header "ALDFramework-Swift.h"
+  requires objc
+}
